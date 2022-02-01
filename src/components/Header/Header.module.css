@@ -1,0 +1,19 @@
+.header {
+    grid-area: h;
+    background-color: #fff;
+    border: 1px solid orange;
+    border-radius: 30px;  
+  }
+  
+  .header img {
+    width: 40px;
+    margin: 10px 5px 10px 10px;
+  }
+  
+  .logo a {
+      color: orange;
+      font-size: 20px;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+  }
