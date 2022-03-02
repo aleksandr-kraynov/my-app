@@ -33,14 +33,12 @@ let store = {
     _callSubscriber()  {
         console.log('State changed');
     },
-
     getState() {
         return this._state;
     },
     subscribe(observer) {
         this._callSubscriber = observer;
-    },   
-
+    },
     dispatch(action) {
 
         this._state.profilePage = profileReducer(this._state.profilePage, action);
